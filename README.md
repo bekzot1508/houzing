@@ -1,12 +1,13 @@
-# Getting Started with Create React App
+# Getting Started with Webbrain Academy
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project is available on github [Houzing](https://github.com/bekzot1508/houzing).
 
+# can see the DEMO [Houzing](https://netlify.com/bekzot1508/houzing)
 ## Available Scripts
 
 In the project directory, you can run:
 
-### `npm start`
+### `yarn start`
 
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
