@@ -1,6 +1,7 @@
 import React from 'react'
 import { Outlet, useNavigate } from 'react-router-dom'
 import navbar from '../../utils/navbar'
+import Button  from '../Generics/Button'
 import { Container, Link, Logo, Section, Wrapper, Main } from './style'
 
 export const Home = () => {
@@ -14,8 +15,8 @@ export const Home = () => {
             <h3>Houzing</h3> 
             </Section>
           <Section>
-            {navbar.map(({path, title}, index) => {
-             return (
+            {navbar.map(({path, title, hidden}, index) => {
+             return !hidden && (
                 <Link 
                   className={({isActive})=> isActive && "active"} 
                   key={index} 
@@ -25,7 +26,8 @@ export const Home = () => {
              })}
            </Section>
            <Section>
-            <button>Sign IN</button>
+                  {/* bu yerda "onClick" method emas. Props, istalgan nom bersa bo'ladi. ex. on */}
+            <Button onClick={() => navigate("/signin")} type={"dark"}>Sign IN</Button>
            </Section>
         </Wrapper>
       </Main>

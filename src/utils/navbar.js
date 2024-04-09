@@ -18,7 +18,23 @@ import PropertiesPage from '../pages/Properties'
       path: "/properties", 
       private: false, 
       hidden: false
-    }
+    },
+    {
+      id: useUniqueId, 
+      element: <h1>Generic sign IN</h1>, 
+      title: "Sign IN", 
+      path: "/signin", 
+      private: false, 
+      hidden: true
+    },
+    {
+      id: useUniqueId, 
+      element: <h1>Generic sign UP</h1>, 
+      title: "Sign UN", 
+      path: "/signup", 
+      private: false, 
+      hidden: true
+    },
 ]
 
 export default navbar;
