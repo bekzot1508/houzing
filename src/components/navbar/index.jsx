@@ -5,7 +5,7 @@ import Filter from '../Filter'
 import Button  from '../Generics/Button'
 import { Container, Link, Logo, Section, Wrapper, Main } from './style'
 
-export const Home = () => {
+const Navbar = () => {
   const navigate = useNavigate()
   return (
     <Container>
@@ -38,4 +38,4 @@ export const Home = () => {
   )
 }
 
-export default Home
+export default Navbar
