@@ -1,7 +1,7 @@
 import React from 'react'
 import { BrowserRouter, Navigate, Route, Routes } from 'react-router-dom'
 import {navbar} from '../utils/navbar'
-import Navbar from '../components/Navbar'
+import Navbar from '../components/Navbar/index.jsx'
 
 const Root = () => {
   return (
