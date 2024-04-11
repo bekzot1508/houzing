@@ -2,7 +2,7 @@ import useUniqueId from "../hooks/useId";
 import HomePage from '../pages/Home'
 import PropertiesPage from '../pages/Properties'
 
-  const navbar = [
+export  const navbar = [
     {
       id: useUniqueId, 
       element: <HomePage/>, 
@@ -37,4 +37,4 @@ import PropertiesPage from '../pages/Properties'
     },
 ]
 
-export default navbar;
+ 
