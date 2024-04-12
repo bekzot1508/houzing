@@ -1,13 +1,12 @@
 import React from 'react'
-import { Input, Button } from '../Generics'
+import Carousel from '../Carousel'
+// import { Input, Button } from '../Generics'
 import { Container } from './style'
 
 const Home = () => {
   return (
     <Container>
-      <h1>Home</h1>
-      <Input placeholder={"Test"}/>
-      <Button/>
+       <Carousel></Carousel>
     </Container>
   )
 }
