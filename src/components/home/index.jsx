@@ -1,12 +1,14 @@
 import React from 'react'
 import Carousel from '../Carousel'
-// import { Input, Button } from '../Generics'
+import HouseCard from '../HouseCard'
+ 
 import { Container } from './style'
 
 const Home = () => {
   return (
     <Container>
-       <Carousel></Carousel>
+       <Carousel/>
+       <HouseCard/>
     </Container>
   )
 }
