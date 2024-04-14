@@ -2,7 +2,7 @@ import useUniqueId from "../hooks/useId";
 import HomePage from '../pages/Home'
 import PropertiesPage from '../pages/Properties'
 
-export  const navbar = [
+export const navbar = [
     {
       id: useUniqueId, 
       element: <HomePage/>, 
