@@ -2,15 +2,14 @@ import React, { Suspense, lazy } from "react";
 import useUniqueId from "../hooks/useId";
 const PropertiesPage = lazy(() => import('../pages/Properties'))
 const HomePage = lazy(() => import('../pages/Home'))
-// import PropertiesPage from '../pages/Properties'
 
 
 export const navbar = [
     {
       id: useUniqueId, 
       element: <Suspense fallback={<React.Fragment>Loading...</React.Fragment>}>
-      <HomePage/>
-    </Suspense>,  
+        <HomePage/>
+      </Suspense>,  
       title: "Home", 
       path: "/home", 
       private: false, 
