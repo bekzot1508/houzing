@@ -1,5 +1,5 @@
 import styled from 'styled-components';
- 
+import { ReactComponent as arrow } from '../../assets/icons/arrow.svg';
 
 const Container = styled.div`
   display: flex;
@@ -11,13 +11,12 @@ const Container = styled.div`
   max-width: 1440px;
   margin-top: 96px;
 `;
-const Content = styled.div`
-display: flex;
-flex-direction: column;
-align-items: center;
-width: 100%;
-text-align: center;
-margin-bottom: 32px;
-`;
 
+const Content = styled.div`
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 32px;
+`;
+ 
 export { Container, Content};

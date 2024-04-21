@@ -3,6 +3,7 @@ import { Outlet, useNavigate } from 'react-router-dom'
 import {navbar} from '../../utils/navbar'
 import Filter from '../Filter'
 import Button  from '../Generics/Button'
+import Footer  from '../Footer'
 import { Container, Link, Logo, Section, Wrapper, Main } from './style'
 
 const Navbar = () => {
@@ -34,6 +35,7 @@ const Navbar = () => {
       </Main>
       <Filter/>
       <Outlet/>
+      <Footer/>
     </Container>
   )
 }

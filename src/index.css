@@ -70,3 +70,7 @@ body {
   color: black !important;
   font-size: 25px !important;
 }
+
+.slick-dots-bottom {
+  width: fit-content !important;
+}
